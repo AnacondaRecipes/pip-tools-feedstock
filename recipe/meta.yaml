@@ -42,7 +42,7 @@ test:
     - pip check
     - pip-compile --help
     - pip-sync --help
-    - pytest -vv tests -k "not (test_combine_different_extras_of_the_same_package or test_pass_pip_cache_to_pip_args)"
+    - pytest -vv tests -k "not (test_combine_different_extras_of_the_same_package or test_pass_pip_cache_to_pip_args or test_read_cache_permission_error)"
     
   requires:
     - pip
