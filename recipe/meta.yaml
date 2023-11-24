@@ -52,6 +52,7 @@ test:
     - pytest-rerunfailures
     - flit-core >=2,<4
     - poetry-core >=1.0.0
+    - git  # [not win]
 
 about:
   home: https://pypi.org/project/pip-tools/
